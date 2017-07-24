@@ -1,5 +1,5 @@
 //This is the title for your window tab, and your Radar
-document.title = "Transparent Language's Technology Radar (December 2014)";
+document.title = "TL's Technology Radar (Summer 2017)";
 
 
 //This is the concentic circles that want on your radar
@@ -55,7 +55,7 @@ var radar_data = [
         "top": 18,
         "color": "#8FA227",
         "items": [
-            {"name": "Some Technique", "pc": {"r": 100, "t": 135}, "movement": "c", "url": "http://www.google.com"}
+            {"name": "Some Technique", "pc": {"r": 50, "t": 135}, "movement": "c", "url": "http://www.google.com"}
         ]
     },
     {
@@ -64,7 +64,7 @@ var radar_data = [
         "top": 18,
         "color": "#587486",
         "items": [
-            {"name": "some Tool", "pc": {"r": 100, "t": 45}, "movement": "c", "url": "http://www.google.com"}
+            {"name": "some Tool", "pc": {"r": 50, "t": 45}, "movement": "c", "url": "http://www.google.com"}
         ]
     },
     {
@@ -73,7 +73,7 @@ var radar_data = [
         "top": (h / 2 + 18),
         "color": "#DC6F1D",
         "items": [
-            {"name": "Some Platform", "pc": {"r": 100, "t": 225}, "movement": "c", "url": "http://www.google.com"}
+            {"name": "Some Platform", "pc": {"r": 50, "t": 225}, "movement": "c", "url": "http://www.google.com"}
         ]
     },
     {
@@ -82,7 +82,7 @@ var radar_data = [
         "left": (w - 200 + 30),
         "top": (h / 2 + 18),
         "items": [
-            {"name": "Some Language", "pc": {"r": 100, "t": 315}, "movement": "c", "url": "http://www.google.com"}
+            {"name": "Some Language", "pc": {"r": 50, "t": 315}, "movement": "c", "url": "http://www.google.com"}
         ]
     }
 ];
