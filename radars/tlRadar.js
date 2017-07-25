@@ -55,7 +55,8 @@ var radar_data = [
         "top": 18,
         "color": "#8FA227",
         "items": [
-            {"name": "Some Technique", "pc": {"r": 50, "t": 135}, "movement": "c", "url": "http://www.google.com"}
+            {"name": "Build Upon Commit",   "pc": {"r": 50,  "t": 100}, "movement": "c", "url": "http://www.google.com"},
+            {"name": "By Hand Deployments", "pc": {"r": 350, "t": 175}, "movement": "c", "url": "http://www.google.com"}
         ]
     },
     {
