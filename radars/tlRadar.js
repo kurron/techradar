@@ -55,8 +55,9 @@ var radar_data = [
         "top": 18,
         "color": "#8FA227",
         "items": [
-            {"name": "Build Upon Commit",   "pc": {"r": 50,  "t": 100}, "movement": "c", "url": "http://www.google.com"},
-            {"name": "By Hand Deployments", "pc": {"r": 350, "t": 175}, "movement": "c", "url": "http://www.google.com"}
+            {"name": "Build Upon Commit",         "pc": {"r": 50,  "t": 100}, "movement": "c", "url": "http://www.google.com"},
+            {"name": "Consumer Driven Contracts", "pc": {"r": 200,  "t": 100}, "movement": "c", "url": "http://www.google.com"},
+            {"name": "By Hand Deployments",       "pc": {"r": 350, "t": 175}, "movement": "c", "url": "http://www.google.com"}
         ]
     },
     {
@@ -65,7 +66,8 @@ var radar_data = [
         "top": 18,
         "color": "#587486",
         "items": [
-            {"name": "Ansible", "pc": {"r": 50,  "t": 10}, "movement": "c", "url": "http://www.google.com"},
+            {"name": "Ansible", "pc": {"r": 80,  "t": 10}, "movement": "c", "url": "http://www.google.com"},
+            {"name": "Gradle",  "pc": {"r": 20,  "t": 20}, "movement": "c", "url": "http://www.google.com"},
             {"name": "Maven",   "pc": {"r": 350, "t": 86}, "movement": "c", "url": "http://www.google.com"}
         ]
     },
@@ -76,11 +78,12 @@ var radar_data = [
         "color": "#DC6F1D",
         "items": [
             {"name": "MongoDB as a Service",  "pc": {"r": 200, "t": 185}, "movement": "c", "url": "http://www.google.com"},
+            {"name": "RabbitMQ as a Service", "pc": {"r": 200, "t": 195}, "movement": "c", "url": "http://www.google.com"},
             {"name": "EC2",                   "pc": {"r": 90,  "t": 225}, "movement": "c", "url": "http://www.google.com"},
+            {"name": "Kubernetes",            "pc": {"r": 250, "t": 225}, "movement": "c", "url": "http://www.google.com"},
             {"name": "ECS",                   "pc": {"r": 125, "t": 225}, "movement": "c", "url": "http://www.google.com"},
             {"name": "ELB",                   "pc": {"r": 125, "t": 235}, "movement": "c", "url": "http://www.google.com"},
-            {"name": "RabbitMQ as a Service", "pc": {"r": 200, "t": 195}, "movement": "c", "url": "http://www.google.com"},
-            {"name": "Kubernetes",            "pc": {"r": 250, "t": 225}, "movement": "c", "url": "http://www.google.com"},
+            {"name": "SES",                   "pc": {"r": 125, "t": 245}, "movement": "c", "url": "http://www.google.com"},
             {"name": "API Gateway",           "pc": {"r": 80,  "t": 265}, "movement": "c", "url": "http://www.google.com"}
         ]
     },
@@ -90,11 +93,13 @@ var radar_data = [
         "left": (w - 200 + 30),
         "top": (h / 2 + 18),
         "items": [
-            {"name": "Java 8",        "pc": {"r": 50,  "t": 280}, "movement": "c", "url": "http://www.google.com"},
-            {"name": "Python 3",      "pc": {"r": 90,  "t": 345}, "movement": "c", "url": "http://www.google.com"},
-            {"name": "Groovy",        "pc": {"r": 85,  "t": 330}, "movement": "c", "url": "http://www.google.com"},
-            {"name": "Legacy Java"  , "pc": {"r": 350, "t": 315}, "movement": "c", "url": "http://www.google.com"},
-            {"name": "Legacy Python", "pc": {"r": 365, "t": 355}, "movement": "c", "url": "http://www.google.com"}
+            {"name": "Java 8",             "pc": {"r": 50,  "t": 280}, "movement": "c", "url": "http://www.google.com"},
+            {"name": "Spring Framework",   "pc": {"r": 20,  "t": 290}, "movement": "c", "url": "http://www.google.com"},
+            {"name": "Spring Integration", "pc": {"r": 80,  "t": 290}, "movement": "c", "url": "http://www.google.com"},
+            {"name": "Legacy Java"  ,      "pc": {"r": 350, "t": 315}, "movement": "c", "url": "http://www.google.com"},
+            {"name": "Groovy",             "pc": {"r": 85,  "t": 330}, "movement": "c", "url": "http://www.google.com"},
+            {"name": "Python 3",           "pc": {"r": 90,  "t": 345}, "movement": "c", "url": "http://www.google.com"},
+            {"name": "Legacy Python",      "pc": {"r": 365, "t": 355}, "movement": "c", "url": "http://www.google.com"}
         ]
     }
 ];
