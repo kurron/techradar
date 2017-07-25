@@ -88,11 +88,11 @@ var radar_data = [
         "left": (w - 200 + 30),
         "top": (h / 2 + 18),
         "items": [
+            {"name": "Java 8",        "pc": {"r": 50,  "t": 280}, "movement": "c", "url": "http://www.google.com"},
             {"name": "Python 3",      "pc": {"r": 90,  "t": 345}, "movement": "c", "url": "http://www.google.com"},
             {"name": "Groovy",        "pc": {"r": 85,  "t": 330}, "movement": "c", "url": "http://www.google.com"},
-            {"name": "Java 8",        "pc": {"r": 50,  "t": 315}, "movement": "c", "url": "http://www.google.com"},
-            {"name": "Legacy Python", "pc": {"r": 365, "t": 330}, "movement": "c", "url": "http://www.google.com"},
-            {"name": "Legacy Java"  , "pc": {"r": 350, "t": 315}, "movement": "c", "url": "http://www.google.com"}
+            {"name": "Legacy Java"  , "pc": {"r": 350, "t": 315}, "movement": "c", "url": "http://www.google.com"},
+            {"name": "Legacy Python", "pc": {"r": 365, "t": 355}, "movement": "c", "url": "http://www.google.com"}
         ]
     }
 ];
