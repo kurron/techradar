@@ -66,9 +66,12 @@ var radar_data = [
         "top": 18,
         "color": "#587486",
         "items": [
-            {"name": "Ansible", "pc": {"r": 80,  "t": 10}, "movement": "c", "url": "http://www.google.com"},
-            {"name": "Gradle",  "pc": {"r": 20,  "t": 20}, "movement": "c", "url": "http://www.google.com"},
-            {"name": "Maven",   "pc": {"r": 350, "t": 86}, "movement": "c", "url": "http://www.google.com"}
+            {"name": "Ansible",       "pc": {"r": 80,  "t": 10}, "movement": "c", "url": "http://www.google.com"},
+            {"name": "Gradle",        "pc": {"r": 20,  "t": 20}, "movement": "c", "url": "http://www.google.com"},
+            {"name": "Make",          "pc": {"r": 50,  "t": 20}, "movement": "c", "url": "http://www.google.com"},
+            {"name": "Chef",          "pc": {"r": 350, "t": 30}, "movement": "c", "url": "http://www.google.com"},
+            {"name": "Ansible Tower", "pc": {"r": 280, "t": 40}, "movement": "c", "url": "http://www.google.com"},
+            {"name": "Maven",         "pc": {"r": 350, "t": 86}, "movement": "c", "url": "http://www.google.com"}
         ]
     },
     {
@@ -87,6 +90,9 @@ var radar_data = [
             {"name": "ELB",                   "pc": {"r": 125, "t": 235}, "movement": "c", "url": "http://www.google.com"},
             {"name": "SES",                   "pc": {"r": 125, "t": 245}, "movement": "c", "url": "http://www.google.com"},
             {"name": "MongoDB",               "pc": {"r": 80,  "t": 245}, "movement": "c", "url": "http://www.google.com"},
+            {"name": "MySQL",                 "pc": {"r": 80,  "t": 245}, "movement": "c", "url": "http://www.google.com"},
+            {"name": "PostgreSQL",            "pc": {"r": 250, "t": 245}, "movement": "c", "url": "http://www.google.com"},
+            {"name": "Amazon Aurora",         "pc": {"r": 250, "t": 255}, "movement": "c", "url": "http://www.google.com"},
             {"name": "API Gateway",           "pc": {"r": 100, "t": 265}, "movement": "c", "url": "http://www.google.com"}
         ]
     },
@@ -99,7 +105,8 @@ var radar_data = [
             {"name": "Java 8",             "pc": {"r": 50,  "t": 280}, "movement": "c", "url": "http://www.google.com"},
             {"name": "Spring Framework",   "pc": {"r": 20,  "t": 290}, "movement": "c", "url": "http://www.google.com"},
             {"name": "Spring Integration", "pc": {"r": 80,  "t": 290}, "movement": "c", "url": "http://www.google.com"},
-            {"name": "Legacy Java"  ,      "pc": {"r": 350, "t": 315}, "movement": "c", "url": "http://www.google.com"},
+            {"name": "Legacy Java",        "pc": {"r": 350, "t": 315}, "movement": "c", "url": "http://www.google.com"},
+            {"name": "Spring Cloud",       "pc": {"r": 200, "t": 315}, "movement": "c", "url": "http://www.google.com"},
             {"name": "Groovy",             "pc": {"r": 85,  "t": 330}, "movement": "c", "url": "http://www.google.com"},
             {"name": "Python 3",           "pc": {"r": 90,  "t": 345}, "movement": "c", "url": "http://www.google.com"},
             {"name": "Legacy Python",      "pc": {"r": 365, "t": 355}, "movement": "c", "url": "http://www.google.com"}
