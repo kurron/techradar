@@ -55,9 +55,15 @@ var radar_data = [
         "top": 18,
         "color": "#8FA227",
         "items": [
-            {"name": "Build Upon Commit",         "pc": {"r": 50,  "t": 100}, "movement": "c", "url": "http://www.google.com"},
-            {"name": "Consumer Driven Contracts", "pc": {"r": 200,  "t": 100}, "movement": "c", "url": "http://www.google.com"},
-            {"name": "By Hand Deployments",       "pc": {"r": 350, "t": 175}, "movement": "c", "url": "http://www.google.com"}
+            {"name": "Build Upon Commit",            "pc": {"r": 50,  "t": 100}, "movement": "c", "url": "http://www.google.com"},
+            {"name": "Consumer Driven Contracts",    "pc": {"r": 200, "t": 100}, "movement": "c", "url": "http://www.google.com"},
+            {"name": "Deployment via Docker",        "pc": {"r": 80,  "t": 120}, "movement": "c", "url": "http://www.google.com"},
+            {"name": "Build With Docker",            "pc": {"r": 200, "t": 130}, "movement": "c", "url": "http://www.google.com"},
+            {"name": "Automated Accepting Testing",  "pc": {"r": 150, "t": 130}, "movement": "c", "url": "http://www.google.com"},
+            {"name": "Reactive Programming",         "pc": {"r": 200, "t": 140}, "movement": "c", "url": "http://www.google.com"},
+            {"name": "Automated Code Inspection",    "pc": {"r": 60,  "t": 150}, "movement": "c", "url": "http://www.google.com"},
+            {"name": "API documentation from tests", "pc": {"r": 150, "t": 150}, "movement": "c", "url": "http://www.google.com"},
+            {"name": "By Hand Deployments",          "pc": {"r": 350, "t": 175}, "movement": "c", "url": "http://www.google.com"}
         ]
     },
     {
@@ -69,8 +75,12 @@ var radar_data = [
             {"name": "Ansible",       "pc": {"r": 80,  "t": 10}, "movement": "c", "url": "http://www.google.com"},
             {"name": "Gradle",        "pc": {"r": 20,  "t": 20}, "movement": "c", "url": "http://www.google.com"},
             {"name": "Make",          "pc": {"r": 50,  "t": 20}, "movement": "c", "url": "http://www.google.com"},
+            {"name": "Bamboo",        "pc": {"r": 60,  "t": 30}, "movement": "c", "url": "http://www.google.com"},
+            {"name": "Concourse",     "pc": {"r": 180, "t": 40}, "movement": "c", "url": "http://www.google.com"},
+            {"name": "Spinnaker",     "pc": {"r": 180, "t": 40}, "movement": "c", "url": "http://www.google.com"},
             {"name": "Chef",          "pc": {"r": 350, "t": 30}, "movement": "c", "url": "http://www.google.com"},
             {"name": "Ansible Tower", "pc": {"r": 280, "t": 40}, "movement": "c", "url": "http://www.google.com"},
+            {"name": "SaltStack",     "pc": {"r": 300, "t": 40}, "movement": "c", "url": "http://www.google.com"},
             {"name": "Maven",         "pc": {"r": 350, "t": 86}, "movement": "c", "url": "http://www.google.com"}
         ]
     },
@@ -93,7 +103,8 @@ var radar_data = [
             {"name": "MySQL",                 "pc": {"r": 80,  "t": 245}, "movement": "c", "url": "http://www.google.com"},
             {"name": "PostgreSQL",            "pc": {"r": 250, "t": 245}, "movement": "c", "url": "http://www.google.com"},
             {"name": "Amazon Aurora",         "pc": {"r": 250, "t": 255}, "movement": "c", "url": "http://www.google.com"},
-            {"name": "API Gateway",           "pc": {"r": 100, "t": 265}, "movement": "c", "url": "http://www.google.com"}
+            {"name": "API Gateway",           "pc": {"r": 100, "t": 265}, "movement": "c", "url": "http://www.google.com"},
+            {"name": "Application Servers",   "pc": {"r": 300, "t": 265}, "movement": "c", "url": "http://www.google.com"}
         ]
     },
     {
@@ -106,9 +117,11 @@ var radar_data = [
             {"name": "Spring Framework",   "pc": {"r": 20,  "t": 290}, "movement": "c", "url": "http://www.google.com"},
             {"name": "Spring Integration", "pc": {"r": 80,  "t": 290}, "movement": "c", "url": "http://www.google.com"},
             {"name": "Legacy Java",        "pc": {"r": 350, "t": 315}, "movement": "c", "url": "http://www.google.com"},
-            {"name": "Spring Cloud",       "pc": {"r": 200, "t": 315}, "movement": "c", "url": "http://www.google.com"},
+            {"name": "Spring Cloud",       "pc": {"r": 190, "t": 315}, "movement": "c", "url": "http://www.google.com"},
+            {"name": "Spock",              "pc": {"r": 75,  "t": 320}, "movement": "c", "url": "http://www.google.com"},
             {"name": "Groovy",             "pc": {"r": 85,  "t": 330}, "movement": "c", "url": "http://www.google.com"},
             {"name": "Python 3",           "pc": {"r": 90,  "t": 345}, "movement": "c", "url": "http://www.google.com"},
+            {"name": "Java 9",             "pc": {"r": 200, "t": 345}, "movement": "c", "url": "http://www.google.com"},
             {"name": "Legacy Python",      "pc": {"r": 365, "t": 355}, "movement": "c", "url": "http://www.google.com"}
         ]
     }
