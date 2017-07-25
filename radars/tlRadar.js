@@ -80,11 +80,14 @@ var radar_data = [
             {"name": "MongoDB as a Service",  "pc": {"r": 200, "t": 185}, "movement": "c", "url": "http://www.google.com"},
             {"name": "RabbitMQ as a Service", "pc": {"r": 200, "t": 195}, "movement": "c", "url": "http://www.google.com"},
             {"name": "EC2",                   "pc": {"r": 90,  "t": 225}, "movement": "c", "url": "http://www.google.com"},
+            {"name": "RabbitMQ",              "pc": {"r": 80,  "t": 230}, "movement": "c", "url": "http://www.google.com"},
             {"name": "Kubernetes",            "pc": {"r": 250, "t": 225}, "movement": "c", "url": "http://www.google.com"},
             {"name": "ECS",                   "pc": {"r": 125, "t": 225}, "movement": "c", "url": "http://www.google.com"},
+            {"name": "Redis",                 "pc": {"r": 80,  "t": 230}, "movement": "c", "url": "http://www.google.com"},
             {"name": "ELB",                   "pc": {"r": 125, "t": 235}, "movement": "c", "url": "http://www.google.com"},
             {"name": "SES",                   "pc": {"r": 125, "t": 245}, "movement": "c", "url": "http://www.google.com"},
-            {"name": "API Gateway",           "pc": {"r": 80,  "t": 265}, "movement": "c", "url": "http://www.google.com"}
+            {"name": "MongoDB",               "pc": {"r": 80,  "t": 245}, "movement": "c", "url": "http://www.google.com"},
+            {"name": "API Gateway",           "pc": {"r": 100, "t": 265}, "movement": "c", "url": "http://www.google.com"}
         ]
     },
     {
