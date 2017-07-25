@@ -64,7 +64,8 @@ var radar_data = [
         "top": 18,
         "color": "#587486",
         "items": [
-            {"name": "some Tool", "pc": {"r": 50, "t": 45}, "movement": "c", "url": "http://www.google.com"}
+            {"name": "Ansible", "pc": {"r": 50,  "t": 10}, "movement": "c", "url": "http://www.google.com"},
+            {"name": "Maven",   "pc": {"r": 350, "t": 86}, "movement": "c", "url": "http://www.google.com"}
         ]
     },
     {
